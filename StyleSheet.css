@@ -10,11 +10,14 @@
     margin: 10px auto 10px auto;
     padding: 20px;
     border: 4px double #000;
-    background-color: #ffffff;
+    background-color: #F5DEB3;
 }
 #logo {
     width: 570px;
     margin: 10px auto 25px auto;
+}
+h1 {
+    text-align: center
 }
 ul {
     width: 570px;
@@ -29,7 +32,7 @@ li {
     margin: 0px 3px
 }
 p {
-    text-align: center;
+    text-align: left;
     width: 600px;
     margin: 20px auto 20px auto;
     font-weight: normal;
@@ -39,12 +42,26 @@ a {
     text-transform: uppercase;
     text-decoration: none;
     padding: 6px 18px 5px 18px;
+    text-align: left
 }
 a:hover, a.on {
     color: #cc3333;
-    background-color: #ffffff;
+    background-color: #efefef;
 }
 table {
     text-align: center;
+    margin: 10px auto 25px auto;
+    padding: 6px 18px 5px 18px;
+}
+td {
+    text-align:left
+}
 
+img {
+    
+    width:570px;
+    
+}
+#space {
+     margin-bottom:20em
 }
