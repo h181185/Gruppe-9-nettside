@@ -19,7 +19,7 @@
 h1 {
     text-align: center
 }
-ul {
+ul.linje {
     width: 60%;
     padding: 15px;
     margin: 0px auto 0px auto;
@@ -27,7 +27,13 @@ ul {
     border-bottom: 1px solid #000;
     text-align: center;
 }
-li {
+ul.linje1 {
+    width: 60%;
+    padding: 15px;
+    margin: 0px auto 0px auto;
+    text-align: center;
+}
+li.inline {
     display: inline;
     margin: 0px 3px
 }
@@ -37,17 +43,31 @@ p {
     margin: 20px auto 20px auto;
     font-weight: normal;
 }
-li a {
+p.center {
+    text-align: center;
+    width: 60%;
+    margin: 20px auto 20px auto;
+    font-weight: lighter
+}
+a.farge {
     color: #000000;
     text-transform: uppercase;
     text-decoration: none;
     padding: 6px 18px 5px 18px;
     text-align: left
 }
-li a:hover, li a.on {
+a.farge:hover {
     color: #cc3333;
     background-color: #efefef;
 }
+a.on {
+    color: #cc3333;
+    background-color: #efefef;
+}
+a {
+    color:indianred;
+}
+
 table {
     text-align: center;
     margin: 10px auto 25px auto;
