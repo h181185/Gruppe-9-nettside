@@ -1,53 +1,63 @@
 ﻿body {
-    font-size: 80%;
+    font-size: 1em;
     font-family: "Courier New", Courier, monospace;
     letter-spacing: 0.15em;
     background-color: #efefef;
 }
 #page {
-    max-width: 940px;
-    min-width: 720px;
+    max-width: 70%;
+    min-width: 40%;
     margin: 10px auto 10px auto;
     padding: 20px;
     border: 4px double #000;
     background-color: #F5DEB3;
 }
 #logo {
-    width: 540px;
+    width: 60%;
     margin: 10px auto 25px auto;
+    text-align: center;
 }
 h1 {
     text-align: center
 }
-#ulul {
-    width: 570px;
+ul.linje {
+
+    width: 60%;
     padding: 15px;
     margin: 0px auto 0px auto;
-    border-top: 2px solid #000;
+    
     border-bottom: 1px solid #000;
     text-align: center;
 }
-#lili {
+
+li.inline {
     display: inline;
     margin: 0px 3px
 }
+
 p {
     text-align: left;
-    width: 600px;
+    width: 60%;
     margin: 20px auto 20px auto;
     font-weight: normal;
 }
-a {
+a.farge {
     color: #000000;
     text-transform: uppercase;
     text-decoration: none;
     padding: 6px 18px 5px 18px;
     text-align: left
 }
-a:hover, a.on {
+a.farge:hover {
     color: #cc3333;
     background-color: #efefef;
 }
+a.on {
+    color: #cc3333;
+    background-color: #efefef;
+}
+
+
 table {
     text-align: center;
     margin: 10px auto 25px auto;
@@ -64,10 +74,18 @@ th, td {
     padding: 5px;
 }
 
-img {
-    
-    width:560px;
+img {    
+    width:100%;
     margin: 10px auto 25px auto;
+}
+img.align-left {
+    float:left;
+    margin-left: 100px;
+    margin-right:30px;
+}
+img.medium {
+    width: 200px;
+    height: 274px;
 }
 #space {
      margin-bottom:30em
