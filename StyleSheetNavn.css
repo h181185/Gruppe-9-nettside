@@ -38,6 +38,9 @@ ul.linje1 {
     margin: 0px auto 0px auto;
     text-align: center;
 }
+ul.fixed {
+    position: fixed;
+}
 
 li.inline {
     display: inline;
@@ -117,6 +120,8 @@ p.space1 {
 img.spacebilde { 
     margin-bottom:5em;
 }
-img.kristoffer {
-
+img.borderkristoffer {
+    border-style: double;
+    border-width: 0.25em;
+   
 }
