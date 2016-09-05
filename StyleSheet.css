@@ -1,4 +1,4 @@
-﻿body
+body
 {
 	background-color: #efefef;
 	font-family: "Courier New", Courier, monospace;
@@ -45,10 +45,8 @@ ul.fixedtop
 	box-shadow: 0 7px 8px rgba(0, 0, 0, 0.12);
 	height: 20px;
 	left: 0;
-	moz-box-shadow: 0 7px 8px rgba(0, 0, 0, 0.12);
 	position: fixed;
 	top: 0;
-	webkit-box-shadow: 0 7px 8px rgba(0, 0, 0, 0.12);
 	width: 100%;
 	z-index: 10;
 }
@@ -117,11 +115,23 @@ img
 	margin: 10px auto 25px auto;
 	width: 100%;
 }
-#space
+p.space
 {
 	margin-bottom: 30em;
 }
-#spacebilde
+img.spacebilde
+{
+	margin-bottom: 5em;
+}
+h1
+{
+	text-align: center;
+}
+h2.hcenter , h3.hcenter
+{
+	text-align: center;
+}
+p.space1
 {
 	margin-bottom: 5em;
 }
