@@ -1,4 +1,5 @@
 body
+/*  Definerer bakgrunnsfarge, skriftstørrelse, skrifttype, og mellomrom mellom hver bokstav */
 {
 	background-color: #efefef;
 	font-family: "Courier New", Courier, monospace;
@@ -6,6 +7,8 @@ body
 	letter-spacing: 0.15em;
 }
 #page
+/* Dette er malen for selve siden, der vi har innholdet. Her er bakgrunnsfarge definer, 
+ramme rundt siden, maksimum og minimum begrensninger på bredden av siden, og padding */
 {
 	background-color: #F5DEB3;
 	border: 4px double #000;
@@ -15,16 +18,24 @@ body
 	padding: 20px;
 }
 #logo
+/* Definerer hvor bildet/logoen på toppen av siden skal ligge */
 {
 	margin: 10px auto 25px auto;
 	margin-top: 5%;
 	width: 60%;
 }
 h1
+/* Overskrift klasse h1 ligger i sentrum på siden */
+{
+	text-align: center;
+}
+h2.hcenter , h3.hcenter
+/* Overskrift i klasse h2 og h3 ligger i sentrum på siden */
 {
 	text-align: center;
 }
 ul.linje
+/* Bredde, og tekst sentrering og linje i bunn */
 {
 	border-bottom: 1px solid #000;
 	margin: 0px auto 0px auto;
@@ -33,6 +44,7 @@ ul.linje
 	width: 60%;
 }
 ul.linje1
+/* Bredde, og tekst sentrering */
 {
 	margin: 0px auto 0px auto;
 	padding: 15px;
@@ -40,6 +52,8 @@ ul.linje1
 	width: 60%;
 }
 ul.fixedtop
+/* Menyen ligger alltid i toppen av skjermen, i tillegg er det lagt til en skygge mellom menyen og resten av siden. 
+z-index er også benyttet slik at den alltid ligger fremst på siden.*/
 {
 	background: #F5DEB3;
 	box-shadow: 0 7px 8px rgba(0, 0, 0, 0.12);
@@ -51,11 +65,13 @@ ul.fixedtop
 	z-index: 10;
 }
 li.inline
+/* Listen i linje, istedet for nedover */
 {
 	display: inline;
 	margin: 0px 3px;
 }
 p
+/* Tekst retning mot venstre på en paragraf */
 {
 	font-weight: normal;
 	margin: 20px auto 20px auto;
@@ -63,13 +79,25 @@ p
 	width: 60%;
 }
 p.center
+/* Text-align i center av siden, med margin for å få innholdet litt inn på siden, bredden på paragrafen er 60% av skjerm */
 {
 	font-weight: lighter;
 	margin: 20px auto 20px auto;
 	text-align: center;
 	width: 60%;
 }
+p.space
+/* mellomrom etter en paragraf */
+{
+	margin-bottom: 30em;
+}
+p.space1
+/* mellomrom etter en paragraf */
+{
+	margin-bottom: 5em;
+}
 a.farge
+/* Farge på lenger/knapper */
 {
 	color: #000000;
 	padding: 6px 18px 5px 18px;
@@ -78,60 +106,48 @@ a.farge
 	text-transform: uppercase;
 }
 a.farge:hover
+/* Farge på på meny når eg peker musen over */
 {
 	background-color: #efefef;
 	color: #cc3333;
 }
 a.on
+/* Alltid ha bakgrunnsfarge på en lenke, bruker den på menyen, der knappen "MENY" er grå */
 {
 	background-color: #efefef;
 	color: #cc3333;
 }
 a
+/* Farge på en lenke, slik at den er rød i stedet for standard blå */
 {
 	color: indianred;
 }
 table
+/* Litt padding på tabellen, og margin rundt i forhold til andre elementer, og sentrering av tekst */
 {
 	margin: 10px auto 25px auto;
 	padding: 6px 18px 5px 18px;
 	text-align: center;
 }
 th, td
+/* Ramme rundt tabellen */
 {
 	border: 1px solid black;
 	border-collapse: collapse;
+	padding: 5px;
 }
 td
 {
 	text-align: left;
 }
-th, td
-{
-	padding: 5px;
-}
 img
+/* størrelse på bilde, og mellomrom på sidene av bildet i forhold til skjermen */
 {
 	margin: 10px auto 25px auto;
 	width: 100%;
 }
-p.space
-{
-	margin-bottom: 30em;
-}
 img.spacebilde
-{
-	margin-bottom: 5em;
-}
-h1
-{
-	text-align: center;
-}
-h2.hcenter , h3.hcenter
-{
-	text-align: center;
-}
-p.space1
+/* mellomrom i bunn av bilde */
 {
 	margin-bottom: 5em;
 }
