@@ -1,28 +1,34 @@
 ﻿<!DOCTYPE html>
 <html lang="no">
    <head>
-      <title>Velkommen</title> <!-- hei på deg  -->
+      <title>Velkommen</title> 
       <link href="StyleSheet.css" type="text/css"
-         rel="stylesheet" />
+         rel="stylesheet" />  <!--Linker html til en ccs style sheet -->
       <meta charset="utf-8" />
    </head>
    <body>
       <div id="page">
          <div id="logo">
-            <img id="spacebile" src="images/velkommen.jpg" alt="velkommenlogo">
+            <img id="spacebile" src="images/velkommen.jpg" alt="velkommenlogo"> <!--Oppretter ID, Link til bilde og et alternativ.--> 
          </div>
-         <ul class="linje fixedtop">
-            <li class="inline"><a href="main.html" class="farge on"> Hjem</a></li>
+         <!--Oppretter en liste med medlemmer sine navn-->
+         <ul class="linje fixedtop">  <!--Class til css for oppsett av listen i css-->
+            <!--Oppretter 2 klasser og en link til hver html side-->
+            <li class="inline"><a href="main.html" class="farge on"> Hjem</a></li> 
             <li class="inline"><a href="navn1.html" class="farge">Colin</a></li>
             <li class="inline"><a href="navn2.html" class="farge"> Jacob</a></li>
             <li class="inline"><a href="navn3.html" class="farge"> Kristoffer</a></li>
             <li class="inline"><a href="navn4.html" class="farge"> Peder</a></li>
          </ul>
+         <!--headline med class-->
          <h1 class="hcenter">Vi er gruppe 9, og elsker html/ccs, og data.. seff:DD:D!</h1>
+         <!--Forside bilde. Lager en class til css fil-->
          <img class="align-center" src="images/lol.gif" alt="Et bilde av fantastiske fine gruppemedlemmer">
+         
+         <!--Paragrafer... Med classe "space1" og "space" 2 klasse for forskjellige mellomrom-->
          <p class="space1">I <em>ING-faget</em> har fått i oppgave om å lage en internett side! Gruppen vår består av medlemmene: 
             Jacob, Kristoffer og Colin og Peder! Planen våres er å lage en brukervennlig internett side, som ikke har alt for mye 
-            grafikk og tekst. Vi skal ha en enkel og plane side som ser bra ut!</p>
+            grafikk og tekst. Vi skal ha en enkel og plane side som ser bra ut!</p><!--Legger inn en em skrift type-->
          <p class="space">
             Målet våres er at alle skal jobbe min sin egen side. Slik at vi får gode kunnskaper i html/css. Vi møtes en gang i 
             uken på et gruppe rom på <em>Høyskolen</em>. Her deler vi ideer om hvordan vi skal ha siden, og hjelper hverandre med 
@@ -30,40 +36,43 @@
             og hvilke fremgang vi har!
             Vi har blitt enige om å ha en lik stil/css over hele internett siden. Slik at det ikke blir flashy-pashy-shit! 
             Vi laget et stylesheet som alle kan linke i html koden.
-         </p>
-         <div id="table">
+         </p><!--Paragrafer slutt-->
+         
+         <!--Oppretter en tabel med id "table"--> 
+         <div id="table"> <!--id til tabell... Se css-->
             <table>
-               <thead>
+               <thead><!--tabellhode-->
                   <tr>
                      <th>Personer </th>
                      <th>Mail</th>
                      <th>Klasse</th>
                   </tr>
                </thead>
-               <tbody>
-                  <tr>
-                     <td><strong>Colin</strong></td>
-                     <td><a href="mailto:h966415@stud.hib.no">Email Colin</a></td>
+               <tbody><!--tabellkropp med link til e-mail-->
+                  <tr> <!--tabellrad-->
+                     <td><strong>Colin</strong></td><!--en strong skrift-->
+                     <td><a href="mailto:h966415@stud.hib.no">Email Colin</a></td><!--link til mail-->
                      <td>16HDATA</td>
-                  </tr>
+                  </tr><!--Slutt-->
                   <tr>
                      <td><strong>Jacob</strong></td>
-                     <td><a href="mailto:h181185@stud.hib.no">Email Jacob</a></td>
+                     <td><a href="mailto:h181185@stud.hib.no">Email Jacob</a></td><!--link til mail-->
                      <td>16HDATA</td>
-                  </tr>
+                  </tr><!--Slutt-->
                   <tr>
                      <td><strong>Kristoffer-Andre</strong></td>
-                     <td><a href="mailto:h181192@stud.hib.no">Email Kristoffer-Andre</a></td>
+                     <td><a href="mailto:h181192@stud.hib.no">Email Kristoffer-Andre</a></td><!--link til mail-->
                      <td>16HDATA</td>
-                  </tr>
+                  </tr><!--Slutt-->
                   <tr>
                      <td><strong>Peder</strong></td>
-                     <td><a href="mailto:181221@stud.hib.no">Email Peder</a></td>
+                     <td><a href="mailto:181221@stud.hib.no">Email Peder</a></td><!--link til mail-->
                      <td>16HDATA</td>
-                  </tr>
-               </tbody>
-            </table>
+                  </tr><!--Slutt-->
+               </tbody><!--Tabellkropp Slutt-->
+            </table><!--Tabell Slutt-->
          </div>
       </div>
    </body>
 </html>
+<!-- se css for flere kommentarer. -->
