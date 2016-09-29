@@ -17,6 +17,10 @@ ramme rundt siden, maksimum og minimum begrensninger på bredden av siden, og pa
 	min-width: 40%;
 	padding: 20px;
 }
+.senter {
+	text-align: center;
+	
+}
 #logo
 /* Definerer hvor bildet/logoen på toppen av siden skal ligge */
 {

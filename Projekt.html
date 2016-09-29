@@ -1,33 +1,39 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="no">
-<head>
-    <title>Velkommen</title>
-    <link href="StyleSheet.css" type="text/css"
-          rel="stylesheet" />  <!--Linker html til en ccs style sheet -->
-    <meta charset="utf-8" />
-</head>
-<body>
-    <div id="page">
-        <div id="logo">
-            <ul class="linje fixedtop">
-                <li class="inline"><a href="main.html" class="farge on"> Hjem</a></li>
-                <li class="inline"><a href="navn1.html" class="farge"> Colin</a></li>
-                <li class="inline"><a href="navn2.html" class="farge"> Jacob</a></li>
-                <li class="inline"><a href="navn3.html" class="farge"> Kristoffer</a></li>
-                <li class="inline"><a href="navn4.html" class="farge"> Peder</a></li>
-                <li class="inline"><a href="Projekt.html" class="farge"> Prosjekt</a></li>
-            </ul>
-            <h1>Litt om prosjektet vårt!</h1>
-            <p class="space2">
-                Vi skal lage et firma som utvikler internett sider til restauranter. Vi skal opprette en hjemmeside
-                for vårt firma, med informasjon om oss og hva vi selger. Nettsiden vår viser, en Portefølje av hva vi selger.
-                Denne Portefølje er en mal for restauranten sin internettside.
-            </p>
-            <p class="space1">for å se vår porsjekt beskrivelse <a href="https://www.dropbox.com/s/dvu9z8cgkb3bqg8/Prosjektbeskrivelse%20gruppe%209.docx?dl=0" target="_blank"> <br />Klikk her</a></p>
+   <head>
+      <title>Velkommen</title> 
+      <link href="StyleSheet.css" type="text/css"
+         rel="stylesheet" />  <!--Linker html til en ccs style sheet -->
+         <script src="Prosjektjava.js"></script> <!--her linker vi til javascriptet-->
+      <meta charset="utf-8" />
+   </head>
+   <body>
+   <div id="page">
+      <div id="logo">
+		<ul class="linje fixedtop">
+            <li class="inline"><a href="main.html" class="farge on"> Hjem</a></li>
+            <li class="inline"><a href="navn1.html" class="farge"> Colin</a></li>
+            <li class="inline"><a href="navn2.html" class="farge"> Jacob</a></li>
+            <li class="inline"><a href="navn3.html" class="farge"> Kristoffer</a></li>
+            <li class="inline"><a href="navn4.html" class="farge"> Peder</a></li>
+            <li class="inline"><a href="Projekt.html" class="farge"> Prosjekt</a></li>
+        </ul>
 
-            <br />
-        </div>
-    </div>
-    <br />
-</body>
-</html>
+        <h1>Litt om prosjektet vårt!</h1>
+        <p class="space2">Vi skal lage et firma som utvikler internett sider til restauranter. Vi skal opprette en hjemmeside
+        for vårt firma, med informasjon om oss og hva vi selger. Nettsiden vår viser, en Portefølje av hva vi selger. 
+        Denne Portefølje er en mal for restauranten sin internettside.</p>
+
+        <p class="space1">for å se vår porsjekt beskrivelse <a href="https://www.dropbox.com/s/dvu9z8cgkb3bqg8/Prosjektbeskrivelse%20gruppe%209.docx?dl=0" target="_blank"> <br/>Klikk her</a></p>
+		
+		<br/>
+
+   		 <main class="senter">
+        <div><button onclick="loadDoc()">Nøkkel</button></div>
+        <p id="display" class="center">Trykk på knappen over for å laste inn!</p>
+    </main>
+      </div>
+	</div>
+	<br/>
+   </body>
+ </html>
